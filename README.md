@@ -45,3 +45,19 @@ This project is a **Proof of Concept (PoC)** to help developers understand why s
 Before running the notebook, ensure you update the `HOME_URL` in the setup cell. The current placeholder will result in an `InvalidURL` error:
 ```python
 HOME_URL = "[https://your-authorized-test-target.com](https://your-authorized-test-target.com)"
+```
+
+## 📋 Prerequisites
+Aside from the Python libraries, the Tesseract OCR Engine must be installed on your system:
+
+Linux: sudo apt install tesseract-ocr
+
+macOS: brew install tesseract
+
+Windows: Download the binary from UB Mannheim and add it to your System PATH.
+
+## ⚖️ Disclaimer
+IMPORTANT: This project is for educational and authorized security testing purposes only. Unauthorized access to or testing of computer systems is illegal and unethical. The author is not responsible for any misuse of this software. By using this tool, you agree to do so at your own risk and only on systems you own or have explicit permission to test.
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
